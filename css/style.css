@@ -8,6 +8,7 @@ body {
 /* HEADER */
 a {
 	text-decoration: none;
+	color: black;
 }
 #liens_header {
 	display: flex;
@@ -16,7 +17,7 @@ a {
 	justify-content: space-around;
 	height: 100vh;
 	width: 100vw;
-	background-color: green;
+	background-color: blue;
 	position: fixed;
 	top: 0;
 	animation: liensheader 0.2s linear ;
@@ -43,4 +44,28 @@ a {
 	position: fixed;
 	top: 0;
 	right: 0;
+}
+/* DIV GLOBAL */
+#divGlobal {
+	display: flex;
+/*	justify-content: center;
+*/	align-items: center;
+	flex-direction: column;
+}
+p {
+	text-align: center;
+	width: 90%;
+}
+img {
+	width: 30vw;
+}
+/* ACCUEIL */
+#imgOrnithorynque {
+	width: 30vw;
+}
+/* GALERIE PHOTO */
+#divGaleriePhoto {
+	display: flex;
+	flex-wrap: wrap; 
+	justify-content: center;
 }

@@ -8,9 +8,9 @@
 <body>
 <nav id="liens_header" class="liens_header_cacher">
 	<a href="index.php">accueil</a>
-	<a href="galerie.php">galerie</a>
+	<a href="galerie.php">galerie photo</a>
 	<a href="contact.php">contact</a>
 </nav>
 <header id="menu_burger">
-	<a onclick="menuBurger()"><img src="img/ui/Hamburger_icon.png" id="icone_menu_burger"></a>
+	<a id="burger"><img src="img/ui/Hamburger_icon.png" id="icone_menu_burger"></a>
 </header>
