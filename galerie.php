@@ -11,7 +11,7 @@ include "header.php"; ?>
 		    	
 		    }
 		    else {
-		    	echo "<img src='img/galerie_photo/".$entry."'alt='".$entry."'>";
+		    	echo "<img class='imgGalerie' src='img/galerie_photo/".$entry."'alt='".$entry."'>";
 		    }
 		}
 		$directory->close();

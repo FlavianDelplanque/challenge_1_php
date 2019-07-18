@@ -52,20 +52,26 @@ a {
 */	align-items: center;
 	flex-direction: column;
 }
-p {
-	text-align: center;
-	width: 90%;
-}
-img {
-	width: 30vw;
-}
 /* ACCUEIL */
 #imgOrnithorynque {
 	width: 30vw;
+}
+.paraIndex {
+	text-align: center;
+	width: 90%;
 }
 /* GALERIE PHOTO */
 #divGaleriePhoto {
 	display: flex;
 	flex-wrap: wrap; 
 	justify-content: center;
+}
+.imgGalerie {
+	width: 30vw;
+}
+/* CONTACT */
+.formContact p{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
 }
