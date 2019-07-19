@@ -1,5 +1,5 @@
 <?php $title = "Gallerie photo";
-include "header.php"; ?>
+include "header_footer/header.php"; ?>
 
 	<div id="divGlobal">
 		<h1>Gallerie photo</h1>
@@ -19,5 +19,5 @@ include "header.php"; ?>
 		</div>
 	</div>
 
-<?php include "footer.php"; ?>
+<?php include "header_footer/footer.php"; ?>
 	
